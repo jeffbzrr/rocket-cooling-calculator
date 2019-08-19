@@ -9,7 +9,7 @@ O programa está dispońivel na forma de uma biblioteca para Python (librcc) e u
 A validação do código é realizada utilizando o motor foguete bi proplente L-75, desenvolvido pela Força Aérea Brasileira (FAB). Realizada através da comparação do fluxo de calor ao longo do motor com os resultados de Almeida e Shimote (1999) e de Foltran e Blavier (2018), além de um comparativo do perfil de temperaturas com o último trabalho citado.
 <img src="/figures/fig2.png" width="300"/>
 
-# Requisitos, recomendações
+# Requisitos e recomendações
 - Debian 9 (Stretch) x64 com XFCE
 > Provavelmente funcionará em outras distribuições e em ambiente Windows.
 - Python 3.5

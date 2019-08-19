@@ -1,6 +1,7 @@
 '''
-Biblioteca para cálculo de refrigeração regenerativa em motores foguetes bi propelentes
+Biblioteca para calculo de refrigeracao regenerativa em motores foguetes bi propelentes
 Jefferson Bezerra
+https://github.com/jeffersonmsb/rocket-cooling-calculator
 '''
 
 import csv
@@ -234,6 +235,7 @@ def calc_prop(data_in, data_out):
         data_out['cp'][i] = pyCEA.readPropCEA('cp', data_out['Taw'][i], data_in['p0_pyCEA'], data_in['fuel'], data_in['oxidizer'], data_in['of'], data_in['motor_name'])
         #data_out['cp'][i] = -5.84399e-05*data_out['Taw'][i]**2.0 + 4.23454e-01*data_out['Taw'][i] + 1.29256e+03
         data_out['gama'][i] = 1.23854e-8*data_out['Taw'][i]**2 - 8.09028e-5*data_out['Taw'][i] + 1.34563
+        #Gama para o L-75
         #data_out['gama'][i] = pyCEA.readPropCEA('gama', data_out['Taw'][i], data_in['p0_pyCEA'], data_in['fuel'], data_in['oxidizer'], data_in['of'], data_in['motor_name'])
         data_out['R'][i] = (data_out['cp'][i]*(1 - 1/data_out['gama'][i]))
         mponto = data_in['p0']*data_out['At']*((data_out['gama'][i]/(data_out['R'][i]*T0))*(2/(data_out['gama'][i]+1))**((data_out['gama'][i]+1)/(data_out['gama'][i]-1)))**0.5
