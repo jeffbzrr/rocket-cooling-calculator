@@ -1,6 +1,6 @@
 # RCC - Rocket Cooling Calculator
 
-O RCC é a implementação numérica em Python de um modelo de refrigeração regenerativa, descrito por Foltran e Blavier (2018) para cálculo do perfil de temperaturas para motores foguete bi propelente. Também inclui uma funcionalidade de otimização da geometria dos canais através do método do gradiente descendente.
+O RCC é a implementação numérica em Python de um modelo de refrigeração regenerativa, descrito por Foltran e Blavier (2018), para cálculo do perfil de temperaturas para motores foguete bipropelente. Também inclui uma funcionalidade de otimização da geometria dos canais através do método do gradiente descendente.
 Desenvolvido em 2019 por Jefferson Bezerra na forma de um trabalho de conclusão de curso, do bacharelado em Engenharia Mecânica da Universidade Federal do Ceará, sob orientação do Prof. Claus Wehmann.
 
 O programa está dispońivel na forma de uma biblioteca para Python (librcc) e uma interface gráfica (RCC GUI).
@@ -42,4 +42,4 @@ O programa pode ser utilizado na forma de biblioteca e integrado em outras aplic
 
 # Referências
 
-Para consulta completa das referências acesse o arquivo TCC.pdf (disponível em breve) na pasta documentos. O diretório também contém artigos utilizados nas referências do trabalho.
+Para consulta completa das referências acesse o arquivo TCC.pdf na pasta documentos. O diretório também contém artigos utilizados nas referências do trabalho.
