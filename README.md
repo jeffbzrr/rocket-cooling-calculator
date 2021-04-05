@@ -11,7 +11,7 @@ A validação do código é realizada utilizando o motor foguete bi proplente L-
 
 # Requisitos e recomendações
 - Debian 9 (Stretch) x64 com XFCE
-> Provavelmente funcionará em outras distribuições e em ambiente Windows.
+> Provavelmente funcionará em outras distribuições e não funciona em Windows.
 - Python 3.5
 > Não testado em outras versões.
 - PySimpleGUI
@@ -22,7 +22,7 @@ A validação do código é realizada utilizando o motor foguete bi proplente L-
 > Utilizar a versão modificada disponível no repositório.
 - GFortran
 - NASA Chemical Equilibrium with Applications (CEA)
-> O CEA e o Fortran necessitam estar dentro da pasta "CEA+FORTRAN".
+> O CEA e o Fortran necessitam estar dentro da pasta "CEA+FORTRAN". Essa pasta deve estar dentro do pasta do projeto.
 
 # Estrutura
 
